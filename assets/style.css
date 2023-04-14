@@ -132,3 +132,8 @@ header{
     text-align: justify;
     margin: 1rem;
 }
+@keyframes mover{
+    0%{
+        transform: translate(70%);
+    }
+}
