@@ -25,20 +25,23 @@
     <title>| Paula Sofía Ariza </title>
 </head>
 <body>
-    <div id="app" class="bg-oscuro">
+    <div id="app">
         <header>
-            <nav class="navbar navbar-dark navbar-expand-lg nav-principal">
+            <nav class="navbar navbar-dark navbar-expand-lg ">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse nav-secciones" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse nav-secciones" >
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="#">Sobre Mi</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                                <a class="nav-link active" aria-current="page"href="#proyectos">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"aria-current="page"href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -126,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contenedor4 ">
+            <div class="contenedor4 " id="proyectos">
                 <h3 class="text-center m-4 " >PROYECTOS</h3>
                 <div class="d-flex flex-column proyectos">
                     <div class="d-flex flex-column justify-content-evenly text-light align-items-center">    
@@ -174,6 +177,7 @@
                                 <p>Tienda de mascotas que ofrece al usuario distintos productos de jugeteria y farmacia, con la opción de agregarlos al carrito de compras y jugar con las cantidades, permite contactarse y enviar mensajes a la tienda entre otras funcioanlidades.                       </p>
                                 <p>Frontend: Javascript , VueJs ,  Html , Css, Bootstrap. 
                                 </p>
+                                <a href="#contacto" class="text-center w-25 text-decoration-none link-light link-white-hover  link-contacto "><P>Ir a Huellitas...</P></a>
                                 <a href="https://huellitas-petshop-web-production.up.railway.app/index.html" class="text-center w-25 text-decoration-none link-light link-white-hover  link-contacto "><P>Ir a Huellitas...</P></a>
                             </div>
                             <div class="col-5">
@@ -184,7 +188,7 @@
                 </div>
             </div>
         </main>
-        <footer class="d-flex  align-items-center">
+        <footer class="d-flex  align-items-center" id="contacto">
             
             <div class="col-4 justify-content-center">
                 <h2 class="ms-4">CONTÁCTAME:</h2>
