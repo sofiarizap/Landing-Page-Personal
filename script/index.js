@@ -23,7 +23,7 @@ window.addEventListener ('scroll', function (){
         animacion.style.animation ='mover 1.2s ease-out'
     }
 }),
-window.addEventListener ('scroll', function (){
+window.addEventListener ('scroll', function () {
     let animacion = document.getElementById('animado3') ;
     let posicionobj1 = animacion.getBoundingClientRect().top;
     let tamañoDePantalla = window.innerHeight;
