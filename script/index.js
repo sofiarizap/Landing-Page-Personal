@@ -16,7 +16,7 @@ window.addEventListener ('scroll', function (){
     }
 }),
 window.addEventListener ('scroll', function (){
-    let animacion = document.getElementById('animado2','animado4') ;
+    let animacion = document.getElementById('animado2','animado4');
     let posicionobj1 = animacion.getBoundingClientRect().top;
     let tamañoDePantalla = window.innerHeight;
     if (posicionobj1 <= tamañoDePantalla){
